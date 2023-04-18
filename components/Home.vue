@@ -12,7 +12,7 @@ onMounted(() => {
     <div class="home container relative" id="home">
         <div class="home-text">
             <h2 class="job" data-aos="fade-down">Front-End Developer</h2>
-            <h1 class="name">Radhif <span data-aos="fade-right">Azli</span></h1>
+            <h1 class="name">Radhif <span>Azli</span></h1>
             <p class="about">
                 A frontend developer with one year of experience and with a high passionate to 
                 create user-friendly and beautiful websites

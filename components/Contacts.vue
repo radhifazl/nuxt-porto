@@ -12,12 +12,15 @@ onMounted(() => {
     <div class="container relative" id="contacts">
         <SectionTitle section-title="Contacts"/>
 
-        <h1 class="contact-title -mt-8">
+        <h1 class="contact-title title-desk -mt-8">
             <span>Reach</span> me on : 
         </h1>
 
         <div class="contacts w-full flex items-center justify-between gap-20">
             <div class="left-col w-1/2">
+                <h1 class="contact-title title-mob my-5">
+                    <span>Reach</span> me on : 
+                </h1>
                 <ContactList/>
             </div>
             <div class="right-col">
@@ -57,9 +60,21 @@ onMounted(() => {
     width: 30px;
 }
 
+.title-mob {
+    display: none;
+}
+
 @media screen and (max-width: 868px) {
     .contact-title {
         font-size: var(--tfs-regular);
+    }
+
+    .title-desk {
+        display: none;
+    }
+
+    .title-mob {
+        display: block;
     }
 
     .contact-subtitle {
