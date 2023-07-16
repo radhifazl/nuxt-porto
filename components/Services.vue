@@ -7,12 +7,12 @@ const services = [
     {
         icon: 'design.svg',
         title: 'Design Slicing',
-        desc: 'Turn your design into a website with perfect slicing.',
+        desc: 'Turn your design into a website with good slicing.',
     },
     {
         icon: 'develop.svg',
         title: 'Web Development',
-        desc: 'Develop websites with modern technologies.',
+        desc: 'Develop websites using technologies like React/Vue/Laravel',
     },
     {
         icon: 'profile.svg',

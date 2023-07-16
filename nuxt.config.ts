@@ -10,4 +10,12 @@ export default defineNuxtConfig({
     modules: [
       '@vueuse/nuxt',
     ],
+    vite: {
+      server: {
+        fs: {
+          strict: false
+        }
+      }
+    }
 })
+

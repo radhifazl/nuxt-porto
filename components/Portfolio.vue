@@ -13,10 +13,9 @@ onMounted(() => {
 const portfolioTarget = ref(null)
 
 const skillIcons = [
-    'html', 'css', 'javascript',
-    'bootstrap', 'sass', 'tailwind', 
-    'vue', 'react', 'nuxt',
-    'firebase', 'next', 'laravel'
+    'html', 'javascript', 'css',
+    'bootstrap','vue', 'tailwind', 'nuxt', 'react',
+    'next', 'firebase', 'laravel', 'sql'
 ]
 
 onMounted(() => {

@@ -27,17 +27,12 @@ const contacts = [
         link: 'https://wa.link/jctni4',
         username: '083819801472'
     },
-    {
-        icon: 'upwork.svg',
-        link: 'https://www.upwork.com/freelancers/~0177d908b0488a315c',
-        username: 'Radhif Azli Nurfahriza'
-    },
 ]
 </script>
 
 <template>
     <div class="contact-info w-full p-5 bg-white rounded-md my-3">
-        <div class="socials my-2" v-for="(contact, i) in contacts" :key="i">
+        <div class="socials my-4" v-for="(contact, i) in contacts" :key="i">
             <a :href="contact.link" target="_blank" class="flex items-center gap-5">
                 <img :src="'/icons/'+contact.icon" :alt="contact.icon">
                 <h1 :hidden="hideName">{{ contact.username }}</h1>
